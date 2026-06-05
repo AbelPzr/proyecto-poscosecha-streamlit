@@ -1,0 +1,9 @@
+streamlit
+pandas
+scipy
+statsmodels
+plotly
+matplotlib
+openpyxl
+kaleido
+compactletterdisplay
