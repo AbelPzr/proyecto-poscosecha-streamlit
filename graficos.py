@@ -75,7 +75,7 @@ def mostrar_boxplot(df, variable):
 
     bp = ax.boxplot(
         data_by_treatment,
-        labels=labels_wrapped,
+        tick_labels=labels_wrapped,
         patch_artist=True,
         widths=0.6,
         meanline=True,
@@ -123,7 +123,7 @@ def generar_boxplot_png(df, variable):
 
     bp = ax.boxplot(
         data_by_treatment,
-        labels=labels_wrapped,
+        tick_labels=labels_wrapped,
         patch_artist=True,
         widths=0.6,
         meanline=True,
